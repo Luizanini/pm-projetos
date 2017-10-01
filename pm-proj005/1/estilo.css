@@ -1,0 +1,48 @@
+body {
+    background-color: #9b9b9b;
+}
+
+div {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #000000;
+    margin: 20px;
+}
+
+table {
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #eeeeee;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    color: #212121;
+    padding: 20px 0px 0px 20px;
+}
+
+select {
+    display: block;
+    left: 1000px;
+}
+
+h3 {
+    text-align: right;
+}
+
+img {
+    display: block;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
+

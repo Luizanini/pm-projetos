@@ -1,0 +1,71 @@
+body {
+    background-color: #9b9b9b;
+    padding: 45px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0px 2px 5px 0px #000000;
+    border-spacing: 0;
+}
+
+table caption {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0px -2px 3px 0px #000000;
+    
+}
+table thead th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+table td,th {
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+tbody td:first-child, thead th:first-child {
+    width: 80px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #eeeeee;
+}
+
+tfoot {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+tfoot td {
+    padding-right: 20px;
+}
+
+tfoot td span {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+tfoot td img {
+    padding-left: 30px;
+}
+
+select {
+    border: none;
+    background-color: transparent;
+}
